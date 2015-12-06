@@ -1,7 +1,13 @@
+var path = require('path');
+
 module.exports = {
-  entry: './app/app.tsx',
+  entry: [
+    'webpack/hot/dev-server',
+    'webpack-dev-server/client?http://localhost:8080',
+    path.resolve(__dirname, 'app/app.tsx')
+  ],
   output: {
-    filename: 'app/build.js'
+    filename: 'dist/build.js',
   },
   module: {
     loaders: [{
