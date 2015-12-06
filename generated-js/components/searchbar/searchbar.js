@@ -11,7 +11,7 @@ var SearchBar = (function (_super) {
         _super.call(this);
     }
     SearchBar.prototype.render = function () {
-        return (React.createElement("div", {className: "container"}, React.createElement("form", null, React.createElement("div", {className: "form-group"}, React.createElement("label", null, "Search repos by user id"), React.createElement("input", {type: "text", className: "form-control", id: "search", placeholder: "Search by user id"})))));
+        return (React.createElement("div", {className: "container"}, React.createElement("form", null, React.createElement("div", {className: "form-group"}, React.createElement("label", null, "Search by user id"), React.createElement("input", {type: "text", className: "form-control", id: "search", placeholder: "Search by user id"})))));
     };
     return SearchBar;
 })(React.Component);

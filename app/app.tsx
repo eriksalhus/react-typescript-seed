@@ -1,5 +1,4 @@
-/// <reference path="../typings/react/react.d.ts" />
-/// <reference path="../typings/react/react-dom.d.ts" />
+/// <reference path="../typings/react/react-global.d.ts" />
 
 import SearchBar from './components/searchbar/searchbar.tsx';
 import * as React from 'react';
