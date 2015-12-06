@@ -1,5 +1,5 @@
 module.exports = {
-  entry: './app/demo.tsx',
+  entry: './app/app.tsx',
   output: {
     filename: 'app/build.js'
   },

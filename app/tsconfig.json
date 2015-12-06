@@ -12,6 +12,7 @@
         "removeComments": true,
         "noLib": false,
         "preserveConstEnums": true,
+        "outDir": "../generated-js",
         "suppressImplicitAnyIndexErrors": true
     },
     "filesGlob": [
@@ -22,7 +23,8 @@
     "compileOnSave": true,
     "buildOnSave": false,
     "files": [
-        "demo.tsx"
+        "app.tsx",
+        "components/searchbar/searchbar.tsx"
     ],
     "atom": {
         "rewriteTsconfig": true
