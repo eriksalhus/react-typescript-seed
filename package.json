@@ -1,0 +1,13 @@
+{
+  "name": "react-ts-babel-webpack",
+  "version": "1.0.0",
+  "devDependencies": {
+    "ts-loader": "^0.7.2",
+    "tsc": "^1.20150623.0",
+    "typescript": "^1.6.2"
+  },
+  "dependencies": {
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  }
+}
