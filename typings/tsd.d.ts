@@ -9,3 +9,5 @@
 /// <reference path="react/react-addons-pure-render-mixin.d.ts" />
 /// <reference path="react/react-addons-test-utils.d.ts" />
 /// <reference path="react/react-addons-update.d.ts" />
+/// <reference path="react-router/history.d.ts" />
+/// <reference path="react-router/react-router.d.ts" />

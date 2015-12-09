@@ -8,7 +8,7 @@ var React = require('react');
 var SearchBar = (function (_super) {
     __extends(SearchBar, _super);
     function SearchBar() {
-        _super.call(this);
+        _super.apply(this, arguments);
     }
     SearchBar.prototype.render = function () {
         return (React.createElement("div", {className: "container"}, React.createElement("form", null, React.createElement("div", {className: "form-group"}, React.createElement("label", null, "Search by user id"), React.createElement("input", {type: "text", className: "form-control", id: "search", placeholder: "Search by user id"})))));

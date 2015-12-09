@@ -24,7 +24,9 @@
     "buildOnSave": false,
     "files": [
         "app.tsx",
-        "components/searchbar/searchbar.tsx"
+        "components/searchbar/searchbar.tsx",
+        "main.tsx",
+        "routes.tsx"
     ],
     "atom": {
         "rewriteTsconfig": true

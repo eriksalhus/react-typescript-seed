@@ -3,10 +3,6 @@
 import * as React from 'react';
 
 export default class SearchBar extends React.Component<any, any> {
-  constructor() {
-    super();
-  }
-
   render() {
     return (
       <div className="container">
